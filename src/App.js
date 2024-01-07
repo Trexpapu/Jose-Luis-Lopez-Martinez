@@ -1,21 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Photo from './Photo';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="top-left-text">Abogado José<br /> Luis López<br /> Martínez.</p>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"></link>
+        <p className="name">Abogado José<br /> Luis López<br /> Martínez.</p>
         <div className="oval"></div>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="graduate_label">Licenciado en derecho</div>
+        <Photo />
+        
+        
       </header>
     </div>
   );

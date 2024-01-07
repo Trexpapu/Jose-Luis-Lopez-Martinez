@@ -1,0 +1,24 @@
+/* En tu archivo de estilos (por ejemplo, src/Photo.css) */
+.Lawyer_Photo {
+    position: absolute;
+    width: 20%; /* Ajusta el ancho según tus preferencias */
+    height: 40%; /* Ajusta la altura según tus preferencias */
+    border-radius: 50%; /* Hace que la foto sea circular */
+    border: 5px solid white; /* Añade un borde blanco */
+    box-shadow: 0 0 10px rgba(56, 248, 13, 0.749); /* Añade una sombra tenue */
+    left: 60%;
+    top: 20%;
+  }
+
+  @media screen and (max-width: 1024px){
+    .Lawyer_Photo{
+        left: 60%;
+        top: 7%;
+        width: 25%; /* Ajusta el ancho según tus preferencias */
+        height: 15%; /* Ajusta la altura según tus preferencias */
+        border: 2px solid white; /* Añade un borde blanco */
+        box-shadow: 0 0 10px rgba(56, 248, 13, 0.749); /* Añade una sombra tenue */
+
+    }
+  }
+  
