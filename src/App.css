@@ -4,8 +4,8 @@
 
 
 .App-header {
-  background-color: #0a0a0a;
-  min-height: 200vh;
+  background-color: #000000;
+  min-height: 500vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +17,7 @@
 .name {
   position: absolute;
   top: 5%; /* Utiliza porcentajes para posicionar relativamente según la altura de la pantalla */
-  left: 5%; /* Utiliza porcentajes para posicionar relativamente según el ancho de la pantalla */
+  left: 7%; /* Utiliza porcentajes para posicionar relativamente según el ancho de la pantalla */
   font-size: 5vw; /* Utiliza vw (viewport width) para que el tamaño de la fuente sea relativo al ancho de la pantalla */
   font-family: 'Gentium Book Plus', serif;
   font-family: 'Oswald', sans-serif;
@@ -36,24 +36,56 @@
 }
 .graduate_label{
   position: absolute;
-  left: 12.5%;
-  top: 59%;
+  left: 18%;
+  top: 35%;
   font-weight: bold;
   font-family: 'Gentium Book Plus', serif;
   font-family: 'Oswald', sans-serif;
   font-family: 'Playfair Display', serif;
 }
+.personal_information{
+  position: absolute;
+  left: 10%;
+  top: 110%;
+  font-family: 'Gentium Book Plus', serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-size: 5vw;
+  cursor: pointer;
+}
+.Services_information{
+  position: absolute;
+  left: 10%;
+  top: 220%;
+  font-family: 'Gentium Book Plus', serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-size: 5vw;
+  cursor: pointer;
+}
+
+.Reach_me{
+  position: absolute;
+  top: 360%;
+  font-size: 5vw;
+  font-family: 'Gentium Book Plus', serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Playfair Display', serif;
+  left: 10%;
+}
+
 
 
 /* Responsive*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   .name {
     top: 3%;
-    font-size: 4vw;
+    font-size: 4.5vw;
+    left: 10%;
   }
 
   .oval {
-    top: 17%;
+    top: 19%;
     width: 37%;
     height: 6%;
     left: 5%;
@@ -61,9 +93,22 @@
   }
 
   .graduate_label{
-    top: 19%;
+    top: 28%;
     font-size: 3vw;
-    left: 9%;
+    left: 10%;
+  }
+  .personal_information{
+    top: 33%;
+    font-size: 6vw;
+    left: 10%;
+  }
+  .Services_information{
+    top: 75%;
+    font-size: 6vw;
+    left: 10%;
+  }
+  .Reach_me{
+    top: 120%;
   }
 }
 

@@ -10,7 +10,7 @@
     top: 20%;
   }
 
-  @media screen and (max-width: 1024px){
+  @media screen and (max-width: 1080px){
     .Lawyer_Photo{
         left: 60%;
         top: 7%;
