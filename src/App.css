@@ -73,11 +73,44 @@
   font-family: 'Playfair Display', serif;
   left: 10%;
 }
+.WhatsApp_Link{
+  position: fixed;
+  border-radius: 20%;
+  top: 80%; /* Ajusta la distancia desde la parte superior según tus preferencias */
+  left: 88%; /* Ajusta la distancia desde la izquierda según tus preferencias */
+}
+
+.Contact_information{
+  padding: 40%;
+  position: absolute;
+  top: 320%;
+  font-size: 2.5vw;
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+}
+.Address{
+  position: absolute;
+  left: 0%;
+  cursor: pointer;
+}
+.Email{
+  position: absolute;
+  left: 35%;
+}
+.Number{
+  position: absolute;
+  left: 70%;
+}
 
 
 
 /* Responsive*/
 @media screen and (max-width: 1080px) {
+  .App-header{
+    min-height: 200vh;
+
+  }
   .name {
     top: 3%;
     font-size: 4.5vw;
@@ -110,6 +143,30 @@
   .Reach_me{
     top: 120%;
   }
+  .WhatsApp_Icon{
+    width: 80%;
+  }
+  .WhatsApp_Link{
+    left: 80%;
+    top: 90%;
+  }
+  .Contact_information{
+    top: 110%;
+    font-size: 4vw; 
+  }
+  .Address{
+    top: 50%;
+    left: 25%;
+  }
+  .Email{
+    left: 25%;
+    top: 75%;
+  }
+  .Number{
+    left: 25%;
+    top: 100%;
+  }
+  
 }
 
 
