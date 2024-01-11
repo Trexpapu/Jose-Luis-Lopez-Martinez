@@ -35,3 +35,11 @@ ul {
    
   }
   
+  @media screen and (max-height: 601px) and (max-width: 1025px) {
+    .Services {
+      font-size: 3.3vw;
+      top: 185%;
+      left: 30%;
+    }
+  
+  }

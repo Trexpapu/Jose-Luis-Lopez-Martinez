@@ -33,9 +33,9 @@ function App() {
         </a>
         <Photo />
         <p className='personal_information' onClick={handleClick}>Sobre mí</p>
-        {showEducation && <Education show={showEducation} />}
+        {showEducation && <Education/>}
         <p className='Services_information' onClick={handleClick2}>Servicios</p>
-        {showServices && <Services show={showServices} />}
+        {showServices && <Services/>}
 
         <div className='Reach_me'>Contáctame</div>
 

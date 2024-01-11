@@ -21,4 +21,14 @@
 
     }
   }
-  
+  @media screen and (max-height: 601px) and (max-width: 1025px) {
+    .Lawyer_Photo{
+      left: 70%;
+      top: 7%;
+      width: 25%; /* Ajusta el ancho según tus preferencias */
+      height: 35%; /* Ajusta la altura según tus preferencias */
+      
+
+  }
+
+  } 

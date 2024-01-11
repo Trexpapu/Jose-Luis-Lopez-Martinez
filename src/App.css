@@ -106,6 +106,8 @@ font-family: 'Playfair Display', serif;
 
 
 /* Responsive*/
+
+
 @media screen and (max-width: 1080px) {
   .App-header{
     min-height: 200vh;
@@ -114,7 +116,7 @@ font-family: 'Playfair Display', serif;
   .name {
     top: 3%;
     font-size: 4.5vw;
-    left: 10%;
+      left: 10%;
   }
 
   .oval {
@@ -169,7 +171,40 @@ font-family: 'Playfair Display', serif;
   
 }
 
+@media screen and (max-height: 601px) and (max-width: 1025px) {
+  .App-header{
+    min-height: 400vh;
 
+  }
+  .oval {
+    top: 42%;
+    width: 37%;
+    height: 16%;
+    left: 5%;
+    border: 3px solid rgb(233, 234, 234);
+  }
+  .personal_information{
+    top: 70%;
+    font-size: 5.5vw;
+    
+  }
+  .Services_information{
+    top: 155%;
+    font-size: 5.5vw;
+    
+  }
+  .Contact_information{
+    top: 220%;
+  }
+  .Reach_me{
+    top: 264%;
+  }
+  .WhatsApp_Link{
+    left: 85%;
+    top: 80%;
+  }
+  
+}
 
 
 

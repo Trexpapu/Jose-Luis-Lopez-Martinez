@@ -3,9 +3,9 @@
 import React from 'react';
 import './Education.css';
 
-const Education = ({ show }) => {
+const Education = () => {
   return (
-    <div className={`Education ${show ? 'show' : ''}`}>
+    <div className={`Education`}>
       <h2>Educación</h2>
       <ul>
         <li>Universidad...</li>
